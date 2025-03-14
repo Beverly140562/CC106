@@ -8,20 +8,22 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 	</head>
 	<body>
-		<h1>Farm</h1>
-		<h3>List of animal</h3>
-		<form>
+		
+		<form class="container">
+      <h1 class="text-success">Farm</h1>
+		  <h3 class="text-success">List of animal</h3>
+      
 			<div class="mb-5 mt-3 text-primary">
-				<label for="dogs">Dogs:</label>
-				<input type="number" id="dogs" name="dogs" placeholder="Enter how many Dogs" />
+				<label for="dogs"><strong>Dogs:</strong></label>
+				<input class="text-bg-info" type="number" id="dogs" name="dogs" placeholder="Enter how many Dogs" />
 			</div>
 			<div class="mb-5 mt-3 text-primary">
-				<label for="chicken">Chickens:</label>
-				<input type="number" id="chicken" name="chicken" placeholder="Enter how many Chickens" />
+				<label for="chicken"><strong>Chickens</strong></label>
+				<input class="text-bg-info" type="number" id="chicken" name="chicken" placeholder="Enter how many Chickens" />
 			</div>
-			<button type="button" onclick="add()">Submit</button>
+			<button class="bg-primary" type="button" onclick="add()">Submit</button>
 
-			<h2>Total Legs of animals :<span id="result"></span></h2>
+			<h3 class="text-success">Total Legs of animals :<span id="result"></span></h3>
 		</form>
 
 		<script>

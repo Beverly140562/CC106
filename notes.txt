@@ -1,0 +1,2 @@
+let fruits = ["Apple", "Banana", "Cherr"] e count ang legs sa animals. create calculator input fields diff. animals . another input fields calculate total number og legs . pila kabook legs .
+html ani,animals, input fields sa animals . quantity fields. result how many legs of animals 
